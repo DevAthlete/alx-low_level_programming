@@ -7,11 +7,12 @@
  */
 int main(void)
 {
-	int i;
+	int x = 48;
 
-	for (i = 48; i < 58; i++)
+	while (x <= 57)
 	{
-		putchar(i);
+		putchar(x);
+		x++;
 	}
 	putchar('\n');
 	return (0);
