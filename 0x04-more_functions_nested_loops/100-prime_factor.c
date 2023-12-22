@@ -39,6 +39,7 @@ int main(void)
 	long mia = ihatemath(num);
 
 	printf("The largest prime factor of %ld is: %ld\n", num, mia);
+	printf("\n");
 
 	return (0);
 }
