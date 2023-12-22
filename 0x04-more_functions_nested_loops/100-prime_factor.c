@@ -38,8 +38,7 @@ int main(void)
 	long num = 612852475143;
 	long mia = ihatemath(num);
 
-	printf("The largest prime factor of %ld is: %ld\n", num, mia);
-	printf("\n");
+	printf(" %ld\n",  mia);
 
 	return (0);
 }
